@@ -1,5 +1,9 @@
 body {
-  background-color: #f5f1ee;  
+  background-color: #f5f1ee;
+}
+
+h2 {
+  display: none;
 }
 
 #todoList-container {

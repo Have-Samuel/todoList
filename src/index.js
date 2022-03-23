@@ -1,7 +1,7 @@
 import './style.css';
 
 const toDoList = [{
-  description: 'wash the dishes',
+  description: 'Go shopping',
   completed: 'true',
   index: 1,
 },
