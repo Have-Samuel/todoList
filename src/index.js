@@ -23,7 +23,7 @@ for (let k = 0; k < toDoList.length; k += 1) {
   </div>
   <div id = "message-wrapper">
   <p id = "msg-text">Add to your list...</p>
-  <i id="msg-icon" class = "fa-solid fa-ellipsis-vertical"></i>
+  <i id="msg-icon" class = "fa-solid fa-elliipsis-vertical"></i>
   </div>
 
   <ul id = "items-container">
