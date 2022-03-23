@@ -12,18 +12,16 @@
 - Webpack
 - 
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 1. git clone git@github.com:Have-Samuel/todoList.git
-2. Cd into to-Do-List repo
-3. Use the live server to view the page
+2. In your terminal, move the location you want to clone the project.
+3. cd to the repo.
+4. Get VScode and Install the Linters
+5. And then Start working on your project
+6. In the terminal still typo npm start to view the page
 
 ## Authors
 
