@@ -1,16 +1,6 @@
 import './style.css';
 
-const toDoList = [{
-  description: 'Go shopping',
-  completed: 'true',
-  index: 1,
-},
-{
-  description: 'complete to Do list project',
-  completed: 'false',
-  index: 2,
-},
-];
+const toDoList = [];
 
 const todoListContainer = document.getElementById('todoList-container');
 
