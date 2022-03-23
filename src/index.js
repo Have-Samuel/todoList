@@ -1,17 +1,4 @@
-// import _ from 'lodash';
 import './style.css';
-
-//  function component() {
-//    const element = document.createElement('div');
-
-//    // Lodash, now imported by this script
-//    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-//   element.classList.add('hello');
-
-//    return element;
-//  }
-
-//  document.body.appendChild(component());
 
 console.log('Hello Wabpack!');
 
@@ -29,8 +16,8 @@ const toDoList = [{
 
 const todoListContainer = document.getElementById('todoList-container');
 
-for (let k = 0; k < toDoList; k += 1) {
-  todoListContainer.innerHTML = ``
+for (let k = 0; k < toDoList.length; k += 1) {
+  todoListContainer.innerHTML = `
   <div id ="head-wrapper">
     <h3 id = "head-text">Today's To Do</h3>
     <i id = "top-icon" class ="fa-solid fa-arrows-rotate"></i>
