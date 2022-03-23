@@ -1,0 +1,77 @@
+body {
+  background-color: #f5f1ee;
+}
+
+h2 {
+  display: none;
+}
+
+#todoList-container {
+  border: 2px solid #cecece;
+  width: 40%;
+  margin-top: 13rem;
+  margin-left: 25rem;
+  background-color: #f3f3f3;
+}
+
+#head-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #cecece;
+  background-color: #fff;
+}
+
+#head-text {
+  margin-left: 0.5rem;
+}
+
+#top-icon {
+  margin-right: 0.8rem;
+  margin-top: 1.4rem;
+}
+
+#message-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #cecece;
+  background-color: #fff;
+}
+
+#msg-text {
+  margin-left: 10px;
+  font-style: italic;
+}
+
+/* #msg-icon {
+  margin-right: 10px;
+  margin-top: 20px;
+} */
+
+#items-container {
+  padding-left: 5px;
+  background-color: #fff;
+  margin-top: 0.1px;
+}
+
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #cecece;
+  margin-bottom: 0.1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  list-style: none;
+}
+
+.dots-icon {
+  margin-right: 1rem;
+}
+
+.square {
+  padding: 0.5rem;
+}
+
+#last-msg {
+  color: #aaa4a4;
+  text-align: center;
+}
